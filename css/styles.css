@@ -12394,9 +12394,4 @@ a.link-ver-mas {
   width: 5px !important; 
   height: 5px !important;
 }
-@media all and (max-width: 600px) {
-  .banner-cabecera_info .btn-ad {
 
-    width: 100% !important;
- }
-}
