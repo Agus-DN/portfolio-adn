@@ -11861,6 +11861,7 @@ a.link-ver-mas {
 @media all and (max-width: 781px) { 
   .banner-cabecera_info .btn-ad {
     margin-bottom: 20px;
+   width: 100% !important;
   }
 }
 @media all and (max-width: 768px) {
