@@ -12402,9 +12402,7 @@ a.link-ver-mas {
  .nav-portfolio .nav-link {
    border-radius: 0 !important;
  }
- .nav-portfolio .nav-link:not(:last-child) {
-  border-right: 2px solid #000000 !important;
-}
+ 
  .nav-portfolio .nav-link.active {
   background:#1B2D4D !important;
   border-radius: 0px !important;
@@ -12427,4 +12425,8 @@ a.link-ver-mas {
 .carousel-serv .carousel-inner {
   width: 70%;
   margin: 0 auto;
+}
+
+.nav-portfolio .nav-link:not(:last-child) {
+  border-right: 2px solid #000000 !important;
 }
