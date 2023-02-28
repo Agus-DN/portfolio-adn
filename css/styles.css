@@ -12394,6 +12394,10 @@ a.link-ver-mas {
  .quiensoy_datos-cursos {
    margin-left: 10px;
  }
+ #portfolio .carousel-inner {
+   width: 70%;
+   margin: 0 auto;
+ }
 }
 
 .carousel-indicators [data-bs-target]{
