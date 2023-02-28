@@ -12388,6 +12388,9 @@ a.link-ver-mas {
   .nav-pills li:first-child.active span:first-child {
     color: #ffffff;
   }
+ .quiensoy_lista-datos:first-child() {
+  padding-left: 0px !important;
+ }
 }
 
 .carousel-indicators [data-bs-target]{
