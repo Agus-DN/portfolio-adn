@@ -11709,7 +11709,7 @@ a.link-ver-mas {
     flex-direction: row;
   }
   .carousel-testimonios .carousel-indicators {
-    top: 290px !important;
+    top: 320px !important;
   }
   .carousel-testimonios-item_datos-cliente_nombre-cargo {
     margin-top: 15px !important;
@@ -11861,6 +11861,7 @@ a.link-ver-mas {
 @media all and (max-width: 781px) { 
   .banner-cabecera_info .btn-ad {
     margin-bottom: 20px;
+   width: 100% !important;
   }
 }
 @media all and (max-width: 768px) {
@@ -12387,6 +12388,33 @@ a.link-ver-mas {
   .nav-pills li:first-child.active span:first-child {
     color: #ffffff;
   }
+ .quiensoy_lista-datos {
+  padding-left: 20px !important;
+ }
+ .quiensoy_datos-cursos {
+   margin-left: 10px;
+ }
+ #portfolio .carousel-inner {
+   width: 70%;
+   margin: 0 auto;
+ }
+ 
+ .nav-portfolio .nav-link {
+   border-radius: 0 !important;
+ }
+ 
+ .nav-portfolio .nav-link.active {
+  background:#1B2D4D !important;
+  border-radius: 0px !important;
+  color: #F4FDFE !important;
+  text-decoration: none !important;
+ }
+ .nav-portfolio .nav-link.active:first-child {
+  border-radius: 4px 0px 0px 4px !important;
+ }
+ .nav-portfolio .nav-link.active:last-child {
+  border-radius: 0px 4px 4px 0px !important;
+ }
 }
 
 .carousel-indicators [data-bs-target]{
@@ -12394,3 +12422,11 @@ a.link-ver-mas {
   height: 5px !important;
 }
 
+.carousel-serv .carousel-inner {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.nav-portfolio .nav-link:not(:last-child) {
+  border-right: 2px solid #000000 !important;
+}
