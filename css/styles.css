@@ -12422,6 +12422,9 @@ a.link-ver-mas {
  .nav-portfolio .nav-link.active:last-child {
   border-radius: 0px 4px 4px 0px !important;
  }
+ .seccion-terminos-contratacion {
+  margin-top: -60px !important;
+}
 }
 
 .carousel-indicators [data-bs-target]{
@@ -12455,3 +12458,4 @@ a.link-ver-mas {
 .seccion-terminos-contratacion {
   margin-top: -40px !important;
 }
+
